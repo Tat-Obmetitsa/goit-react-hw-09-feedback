@@ -9,6 +9,10 @@ export default function App() {
   const [bad, setBad] = useState(0);
   const [neutral, setNeutral] = useState(0);
 
+  // const handleIncreament() {
+  //   setGood(prevGood => prevGood + 1)
+  // }
+  
   const  handleIncreament = (option) =>  {
     switch (option) {
       case 'good':
@@ -24,7 +28,7 @@ export default function App() {
         break;
       
       default:
-        console.warn(`Тип поля - ${option} не обрабатывается.`)
+        console.warn(`Option ${option} isn't processed.`)
     }
  };
   const options = ['good', 'neutral', 'bad'];
