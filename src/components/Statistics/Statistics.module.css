@@ -1,0 +1,13 @@
+.container__stats {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: center;
+}
+.container__stats_title {
+  color: #5c2c4b;
+  margin-top: 30px;
+	margin-bottom: 10px;
+	font-weight: 500;
+	font-size: 20px;}
